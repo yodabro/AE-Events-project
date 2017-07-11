@@ -1,9 +1,9 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
-<svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20120731 at Tue Jul 11 22:27:26 2017
- By convertio
+Created by FontForge 20161116 at Sun Jan 15 10:05:27 2017
+ By Jimmy Wärting
 Copyright (c) 2016 by Hermansyah. All rights reserved.
 </metadata>
 <defs>
@@ -20,7 +20,7 @@ Copyright (c) 2016 by Hermansyah. All rights reserved.
     cap-height="731"
     bbox="-485 -497 1629 966.333"
     underline-thickness="50"
-    underline-position="-150"
+    underline-position="-200"
     unicode-range="U+0020-E015"
   />
 <missing-glyph horiz-adv-x="385" 

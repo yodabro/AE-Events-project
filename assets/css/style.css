@@ -14,14 +14,14 @@ General Styles
 
 @font-face {
   font-family: 'Quentin';
-  src: url('fonts/Quentin.eot');
-  src: url('fonts/Quentin.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Quentin.woff') format('woff'),
-    url('fonts/Quentin.ttf') format('truetype'),
-    url('fonts/Quentin.svg#Quentin') format('svg');
+  src: url('../fonts/Quentin.eot');
+  src: url('../fonts/Quentin.woff2') format('woff2'),
+       url('../fonts/Quentin.woff') format('woff'),
+       url('../fonts/Quentin.ttf') format('truetype'),
+       url('../fonts/Quentin.svg#Quentin') format('svg'),
+       url('../fonts/Quentin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
   font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+000D-25CA;
 }
 
 body {
