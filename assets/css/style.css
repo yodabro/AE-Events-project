@@ -751,7 +751,7 @@ Gallery box
 }
 
 .gallery-box .gallery:after, .gallery-box .gallery-link:after {
-	background: rgba(255, 255, 255, 0.3);
+	background: #000;
 	position: absolute;
 	content: "";
 	top: 0;
@@ -771,16 +771,20 @@ Gallery box
 	}
 }
 .gallery-box .gallery-overlay {
-	width: calc(100% - 30px);
+	width: 100%;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	opacity: 0;
 	color: white;
 	transition: opacity 0.2s ease;
+	z-index: 1;
 }
-.gallery-box:hover .gallery-overlay, .gallery-box:hover .gallery:after, .gallery-box:hover .gallery-link:after {
+.gallery-box:hover .gallery-overlay, .gallery-box:hover .gallery:after{
 	opacity: 1;
+}
+.gallery-box:hover .gallery-link:after {
+	opacity: 0.3;
 }
 
 /* ------------------------------------------------------------------
@@ -2365,9 +2369,8 @@ Multi-columns-row
 	max-height: 56.25vw;
 }
 .gallery-link {
-	width: 30.62vw;
-	height: 30.62vw;
-	overflow: hidden;
+	display: inline-block;
+	position: relative;
 }
 .grid-item {
 	width: 30%;
