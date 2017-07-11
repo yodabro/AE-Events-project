@@ -12,6 +12,18 @@ Version: 1.0.4
 General Styles
 ------------------------------------------------------------------ */
 
+@font-face {
+  font-family: 'Quentin';
+  src: url('fonts/Quentin.eot');
+  src: url('fonts/Quentin.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Quentin.woff') format('woff'),
+    url('fonts/Quentin.ttf') format('truetype'),
+    url('fonts/Quentin.svg#Quentin') format('svg');
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-25CA;
+}
+
 body {
 	background: #fff;
 	font: 400 14px/1.8 "Open Sans", sans-serif;
@@ -2424,13 +2436,6 @@ Multi-columns-row
 	height: 100%;
 	width: auto;
 }
-
-@font-face {
+.quentin {
 	font-family: 'Quentin';
-	src: url('fonts/Quentin.ttf');
-	src:
-		local('AntroVectra'),
-		local('AntroVectra'),
-		url('fonts/Quentin.ttf')
-		format('opentype');
 }
