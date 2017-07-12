@@ -1446,7 +1446,7 @@ footer.module {
 }
 
 .navbar-custom + .module {
-	padding: 200px 0;
+	padding: 75px 0;
 }
 
 .navbar-custom + .module-small {
@@ -1486,6 +1486,7 @@ footer.module {
 }
 
 .copyright {
+	font-family: "Didot";
 	padding: 0 5px;
 }
 
