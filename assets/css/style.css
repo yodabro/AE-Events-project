@@ -1131,7 +1131,7 @@ Navigation
 }
 
 .navbar-custom .navbar-brand {
-	padding: 10px 15px;
+	padding: 0 0 0 15px;
 	letter-spacing: 4px;
 	font-weight: 400;
 	font-size: 20px;
