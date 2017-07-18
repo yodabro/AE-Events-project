@@ -173,7 +173,7 @@
 		 * Overlay dropdown menu
 		/* ---------------------------------------------- */
 
-		$('#nav > li.slidedown > a').on('click', function() {
+		$('#nav > li.slidedown > a').on('click', function(e) {
 			if ($(this).attr('class') != 'active') {
 				$('#nav li ul').slideUp({duration: 300, easing: 'easeInOutQuart'});
 				$('#nav li a').removeClass('active');
