@@ -2442,3 +2442,8 @@ Multi-columns-row
 	font-family: 'Quentin';
 	font-size: 10px;
 }
+.magazine {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+}
