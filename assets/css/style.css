@@ -1361,6 +1361,11 @@ Hero
 	text-align: center;
 	min-height: 56.25vw;
 }
+@media (max-width: 767px) {
+  .hero-caption {
+    min-height: 100vh;
+  }
+}
 
 .hero-text {
 	display: table-cell;
