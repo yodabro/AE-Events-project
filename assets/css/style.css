@@ -12,7 +12,7 @@ Version: 1.0.4
 General Styles
 ------------------------------------------------------------------ */
 
-@font-face {
+/*@font-face {
   font-family: 'Quentin';
   src: url('../fonts/Quentin.eot');
   src: url('../fonts/Quentin.woff2') format('woff2'),
@@ -22,7 +22,7 @@ General Styles
        url('../fonts/Quentin.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
-}
+}*/
 
 body {
 	background: #fff;
@@ -164,7 +164,7 @@ a:hover, a:focus {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	line-height: 1.4;
 	font-weight: 400;
-	color: white;
+	color: black;
 }
 
 h1, .h1 {
@@ -192,7 +192,8 @@ h6, .h6 {
 }
 
 p, ol, ul, blockquote {
-	margin: 0 0 20px;
+  font-family: "Didot", sans-serif;
+	margin: 20px 0 20px;
 }
 
 blockquote {
@@ -212,7 +213,7 @@ blockquote.serif-quote {
 }
 
 .font-serif {
-	font-family: "Libre Baskerville", "Times New Roman", sans-serif;
+  font-family: "Didot", sans-serif;
 	letter-spacing: 1px;
 	font-style: italic;
 }
@@ -228,7 +229,7 @@ Forms
 .form-control {
 	border: 2px solid #eee;
 	height: 33px;
-	font-family: "Dosis", sans-serif;
+	font-family: "Didot", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 11px;
@@ -494,7 +495,7 @@ Tabs and Accordion
 	top: 50%;
 	right: 0px;
 	margin-top: -7px;
-	font-family: "FontAwesome";
+  font-family: "Didot", sans-serif;
 	font-size: 14px;
 	line-height: 1;
 }
@@ -1314,7 +1315,7 @@ Navigation
 }
 
 #nav > li > a {
-	font-family: "Dosis", sans-serif;
+  font-family: "Didot", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-size: 24px;
@@ -1399,7 +1400,7 @@ Hero
 
 .mh-line-size-3 {
 	letter-spacing: 24px;
-	font-size: 26px;
+	font-size: 30px;
 	opacity: 0.8;
 }
 
@@ -2444,11 +2445,21 @@ Multi-columns-row
 	width: auto;
 }
 .quentin {
-	font-family: 'Quentin';
-	font-size: 10px;
+  font-family: "Didot", sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
 }
 .magazine {
   width: 100%;
   display: flex;
-  padding: 20px 0;
+  padding: 70px 0;
+}
+
+.team {
+	text-align: center;
+	font-size: 20px;
+}
+
+.info {
+	font-size: 16px;
 }
