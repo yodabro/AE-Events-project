@@ -193,7 +193,7 @@ h6, .h6 {
 
 p, ol, ul, blockquote {
   font-family: "Didot", sans-serif;
-	margin: 20px 0 20px;
+	margin: 10px 0 20px;
 }
 
 blockquote {
@@ -663,7 +663,7 @@ Social links
 .social-text-links,
 .social-icon-links {
 	list-style: none;
-	padding: 0;
+	padding-top: 30px;
 	margin: 0;
 }
 
@@ -732,6 +732,7 @@ Content box
 	position: relative;
 	padding-left: 55px;
 	margin: 25px 0;
+ font-family: "Didot"
 }
 
 .alt-content-box-icon {
@@ -747,7 +748,7 @@ Content box
 }
 
 .alt-content-box-title {
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 }
 
 /* ------------------------------------------------------------------
@@ -1475,7 +1476,7 @@ footer.module {
 
 .module-subtitle {
 	text-align: center;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 .module-icon {
@@ -2463,4 +2464,8 @@ Multi-columns-row
 
 .info {
 	font-size: 12px;
+}
+
+.contact {
+	padding-bottom: 90px;
 }
